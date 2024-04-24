@@ -16,4 +16,14 @@ namespace csharp_abstract_animals
         public abstract void Verso();
         public abstract void Mangia();
     }
+    public interface IVolante
+    {
+        public void Vola();
+
+    }
+    public interface INuotatore
+    {
+        public void Nuota();
+    }
+   
 }
